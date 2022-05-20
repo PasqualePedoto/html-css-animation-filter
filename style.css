@@ -75,7 +75,7 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 
-    transition: filter 2s linear;
+    transition: filter 2s linear, border-radius 2s linear;
 }
 
 /* My solution */
@@ -84,8 +84,15 @@
     filter: grayscale(100%);
 }
 
+/* My solution */
+
 .ex-7-img:hover{
     filter:  grayscale(100%) sepia(10%);
+}
+
+.ex-8-img:hover{
+    filter: sepia(30%) saturate(50%);
+    border-radius: 10%;
 }
 
 .ex-9-img {
