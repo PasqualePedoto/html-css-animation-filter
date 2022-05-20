@@ -44,6 +44,14 @@
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: background-color 1s linear;
+}
+
+/* My solution */
+
+.ex-4-square:hover{
+    background-color: transparent;
 }
 .ex-5-square {
     margin: 20px;
