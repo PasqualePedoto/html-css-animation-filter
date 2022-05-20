@@ -7,9 +7,11 @@
     transition: background-color 3s linear;
 }
 
+/* My solution */
 .ex-1-square:hover{
     background-color: red;
 }
+
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -18,14 +20,26 @@
     transition: width 2s linear;
 }
 
+/* My solution */
 .ex-2-square:active{
     width: 100%;
 }
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    border-radius: 0;
+
+    transition: border-radius 0.5s linear;
 }
+
+/* My solution */
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
